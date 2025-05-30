@@ -3,11 +3,11 @@ This program will convert HTTP comms into valid http blocks for Cobalt Strike. I
 
 # Usage
 usage: charles_to_cs_converter.py [-h] [-o OUTPUT] [-n NAME] [-f {har,raw}]
-                                  [--block {http-get,http-post,http-stager,http-config,full}]
-                                  input
+																	[--block {http-get,http-post,http-stager,http-config,full}]
+                          				input
 
 Convert Charles Proxy captures to Cobalt Strike profiles
-
+```
 positional arguments:
   input                 Input file (HAR or raw HTTP)
 
@@ -19,3 +19,4 @@ options:
                         Input format (auto-detect if not specified)
   --block {http-get,http-post,http-stager,http-config,full}
                         Generate specific block only
+````
